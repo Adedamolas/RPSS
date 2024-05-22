@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+   body{
+    font-family: SpaceMono;
+    background: hsl(237, 49%, 15%);
+    color: #fff;
+    /* background: #141539cc; */
+  }
+  @font-face {
+    font-family: Spacemono;
+    src: url(/public/fonts/SpaceMono-Regular.ttf);
+  }
+  @font-face {
+    font-family: SpaceBold;
+    src: url(/public/fonts/SpaceMono-Bold.ttf);
+  }
+  @font-face {
+    font-family: Novasquare;
+    src: url(/public/fonts/Quantico-Regular.ttf);
+  }
+  button{
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    width: 150px;
+    font-weight: 600;
+    border: 1px hsl(217, 16%, 45%) solid;
+    background-color: transparent;
+    color: #fff;
+    transition: all 1000ms;
+  }
+  button:hover{
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+    background-color: gainsboro;
+    color: #000;
+  }
+  h1{
+    font-size: 4rem;
+    font-weight: 900;
+    margin: 0;
+  }
+  h2{
+    font-size: 2.2rem;
+    margin: 0;
+
+  }
+  h3{
+    font-size: 2rem;
+    margin: 0;
+  }
+  h4{
+    font-size: 1rem;
+    margin: 0;
+  }
+  h5{
+    font-size: 0.7rem;
+    margin: 0;
+  }
+  p{
+    margin: 0;
+  }
+}
